@@ -9,6 +9,8 @@
 <body>
     <h1 style="text-align: center;">Webboard</h1>
     <hr>
+    <br>
+    <from action="verify.php" method="post">
     <table style="border:2px solid black; width:40%" align="center">
         <tr>
             <td style="background-color: #6CD2FE;" colspan="2">เข้าสู่ระบบ</td>
@@ -19,12 +21,13 @@
             </tr>
         <tr>
             <td>Password</td>
-            <td><input type="password" name="password"></td>
+            <td><input type="password" name="pwd"></td>
             </tr>
         <tr>
             <td colspan="2" align="center"><input type="submit" value="Login"></td>
         </tr>
     </table>
+    </form>
     <br>
     <div align="center">ถ้ายังไม่ได้เป็นสมาชิก <a href="register.html">กรุณาลงทะเบียน</a></div>
 </body>
