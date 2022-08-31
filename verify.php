@@ -8,6 +8,11 @@
 </head>
 <body>
     <h1 align="center">Webboard</h1>
-    <br>
+    <hr>
+    <div align="center">
+        เข้าสู่ระบบด้วย<br>
+        Login = <?php echo $_POST["login"];?><br>
+        Password = <?php echo $_POST["pwd"];?>
+    </div>
 </body>
 </html>l
