@@ -12,6 +12,12 @@
     <div align="center">
         ต้องการดูกระทู้หมายเลข 
         <?php echo $_GET["id"];?><br>
+        <?php
+            if($_GET["id"]%2==0)
+                echo"กระทู้หมายเลขคู่";
+            else
+                echo"กระทู้หมายเลขคี่";
+        ?><br>
         <table style="border:2px solid black; width:40%" align="center">
         <tr>
             <td style="background-color: #6CD2FE;" align="center">แสดงความคิดเห็น</td>
